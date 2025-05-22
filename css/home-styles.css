@@ -177,6 +177,7 @@ a:hover{
     padding-top: 20px; 
     padding-bottom: 20px; 
     box-sizing: border-box;
+    margin-left: 4vh;
 }
 
 .carrossel::-webkit-scrollbar {
