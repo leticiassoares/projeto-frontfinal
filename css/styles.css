@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #A8DADC; 
+    background: linear-gradient(180deg, rgba(168, 218, 220, 1) 0%, rgba(250, 243, 224, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-container{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: #457B9D 0px 0px 5px;
+    overflow: hidden;
+}
+
+#column1{
+    align-content: flex-start;
+    padding: 40px;
+}
+#column2{
+    background-position: center;
+    background-image: url('../img/puppy-kitten-vet2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+#logo{
+    height: 4vh;
+    width: auto;
+    padding: 40px 0 0;
+
+}
+h3{
+    margin: 16px 0;
+}
+.buttonClass {
+    font-size:15px;
+    font-family:Poppins;
+    width:138px;
+    height:36px;
+    border: 1px solid rgb(89, 132, 153);
+    color:#000000;
+    border-radius:20px;
+    background:rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+  
+.buttonClass:hover {
+    background: rgb(160, 202, 219)
+}
+            
+#owner{
+    padding: 0 0 10px;
+}
+
+@media (max-width: 768px) {
+    #main-container{
+        grid-template-columns: 1fr;
+        height: 50vh;
+        width: 40vh;
+    }
+    #column2{
+        display: none;
+    }
+    #column1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        padding: 0;
+    }
+    #logo{
+        padding: 0;
+        height: 3vh;
+        margin: 0;
+    }
+    #text1{
+        padding-left: 0;
+    }
+}
