@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>PetGo</title>
+</head>
+<body>
+    <header>
+        <img src="../img/logo.png" alt="Logo PetGo" id="logo">
+        <nav id="nav-padrão">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="encontrar_clinica.html">Clínicas</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+        <button id="mobile-nav-toggle" aria-label="Abrir menu">☰</button> <div id="mobile-nav-menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="encontrar_clinica.html">Clínicas</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="conteudo">
+        <h2>Encontre a clínica mais próxima:</h2>
+        <form>
+            <label for="estado">Estado:</label><br>
+            <select id="estado">
+                <option value="">Selecione</option>
+                <option value="ma">Maranhão</option>
+                <option value="pb">Paraíba</option>
+                <option value="pe">Pernambuco</option>
+                <option value="pi">Piauí</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="ro">Rondônia</option>
+                <option value="sp">São Paulo</option>
+            </select>
+            <br>
+            <label for="cidade">Cidade:</label><br>
+            <select id="cidade">
+                <option value="">Selecione</option>
+                <option value="areia">Areia</option>
+                <option value="bananeiras">Bananeiras</option>
+                <option value="cabedelo">Cabedelo</option>
+                <option value="cajazeiras">Cajazeiras</option>
+                <option value="cg">Campina Grande</option>
+                <option value="jp">João Pessoa</option>
+                <option value="lucena">Lucena</option>
+                <option value="patos">Patos</option>
+                <option value="sr">Santa Rita</option>
+                <option value="sousa">Sousa</option>
+            </select>
+            <br>
+            <label for="bairro">Bairro:</label><br>
+            <select id="bairro">
+                <option value="">Selecione</option>
+                <option value="altiplano">Altiplano</option>
+                <option value="bancarios">Bancários</option>
+                <option value="bessa">Bessa</option>
+                <option value="bde">Bairro dos Estados</option>
+                <option value="cabo-branco">Cabo Branco</option>
+                <option value="centro">Centro</option>
+                <option value="expedicionarios">Expedicionários</option>
+                <option value="jardim-luna">Jardim Luna</option>
+                <option value="jaguaribe">Jaguaribe</option>
+                <option value="manaira">Manaíra</option>
+                <option value="tambaú">Tambaú</option>
+            </select>
+            <br><br>
+            <a href="clinicas.html" class="btn-encontrar">Pesquisar</a>
+        </form>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
