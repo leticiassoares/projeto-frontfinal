@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro PetGo</title>
+  <style>
+    body {
+      background-color: #c6ecf9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .form-box {
+      background: linear-gradient(to bottom, #cfeeee, #e3e7e7);
+      padding: 90px;
+      border: 1px solid #1d1c1c;
+      border-radius: 12px;
+      width: 400px; /* Aumentado */
+      box-shadow: 0 4px 12px rgba(244, 242, 242, 0.2);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .header img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    .header h2 {
+      color: #454444;
+      margin: 0;
+      font-size: 24px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #393939;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #3a809e;
+      color: rgb(248, 245, 245);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #3e7d98;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-box">
+    <div class="header">
+      <img src="/img/logo.png" alt="Logo PetGo">
+      <h2>Cadastro</h2>
+    </div>
+    
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required>
+
+      <label for="confirmar-senha">Confirmar senha:</label>
+      <input type="password" id="confirmar-senha" name="confirmar-senha" required>
+
+      <label for="cnpj">CNPJ:</label>
+      <input type="text" id="cnpj" name="cnpj" required>
+
+      <button type="submit">Seguir</button>
+    </form>
+  </div>
+
+</body>
+</html>
