@@ -1,3 +1,5 @@
+/*Index Styles*/
+
 body {
     margin: 0;
     height: 100vh;
@@ -90,5 +92,67 @@ h3{
     }
     #text1{
         padding-left: 0;
+    }
+}
+
+/*Cadastro_clínca Styles*/
+#main-container-cadastro{
+    background-color: white;
+    border-radius: 20px;
+    width: 30vw;
+    height: 96vh;
+    min-height: 400px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #457B9D 0px 0px 5px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.btn-seguir{
+    font-size:15px;
+    font-family:Poppins;
+    width:138px;
+    height:36px;
+    color:#ffffff;
+    border-radius:20px;
+    background:rgb(89, 132, 153);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+input{
+    width: 200px;
+    height: 25px;
+    padding: 6px 12px;
+    border: 1px solid rgb(89, 132, 153);
+    border-radius: 20px;
+    background: #fff;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-bottom: 12px;
+    outline: none;
+}
+.form-group{
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    #main-container-cadastro{
+        width: 90vw;
+        height: 100vh;
+    }
+    input{
+        width: 80%;
+    }
+    .btn-seguir{
+        width: 80%;
     }
 }
