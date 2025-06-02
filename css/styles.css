@@ -147,7 +147,7 @@ input{
 @media (max-width: 768px) {
     #main-container-cadastro{
         width: 90vw;
-        height: 100vh;
+        height: 70vh;
     }
     input{
         width: 80%;
