@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Loja Pet</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #4a90a4;
+      color: #333;
+    }
+
+    header {
+      padding: 50px 4vh 30px;
+      width: 100%;
+      height: 10vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      background-color: #F1FAEE;
+      box-sizing: border-box;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      color: #336699;
+    }
+
+    header img {
+      height: 50px;
+      border-radius: 8px;
+    }
+
+    header h1 {
+      font-weight: 600;
+      font-size: 1.8rem;
+      margin: 0;
+      color: #336699;
+    }
+
+    main {
+      margin-top: 120px;
+      padding: 0 20px 40px;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .produto {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .produto img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50px;
+      margin-bottom: 15px;
+    }
+
+    .produto h2 {
+      font-size: 18px;
+      margin: 10px 0 5px;
+    }
+
+    .produto p {
+      font-size: 14px;
+      color: #555;
+      margin: 0 0 10px;
+    }
+
+    .preco {
+      font-weight: bold;
+      margin: 10px 0;
+      color: #2e7d32;
+    }
+
+    .botao {
+      background-color: #ff914d;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+    }
+
+    .botao:hover {
+      background-color: #e6833d;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="/projeto-frontfinal/img/logo.png" alt="Logo Loja Pet" />
+    <h1>Produtos para o seu Pet 🐾</h1>
+  </header>
+
+  <main>
+    <section class="produtos">
+      <div class="produto">
+        <img src="/projeto-frontfinal/img/coleira.jpg" alt="Coleira" />
+        <h2>Coleira</h2>
+        <p>Coleira confortável e segura.</p>
+        <p class="preco">R$ 19,90</p>
+        <button class="botao">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="/projeto-frontfinal/img/shampoopet.jpeg" alt="Shampoo" />
+        <h2>Shampoo</h2>
+        <p>Seu pet mais limpo e cheiroso.</p>
+        <p class="preco">R$ 24,90</p>
+        <button class="botao">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="/projeto-frontfinal/img/caminhafofo.webp" alt="Caminha" />
+        <h2>Caminha Fofo</h2>
+        <p>Conforto e estilo para o descanso do seu pet.</p>
+        <p class="preco">R$ 119,00</p>
+        <button class="botao">Comprar</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PetGO. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
+
