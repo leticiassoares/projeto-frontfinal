@@ -299,6 +299,9 @@ a:hover{
     display: grid;
     gap: 2vh;
 }
+#petlove-link{
+    text-decoration: none;
+}
 
 /* Encontrar_clinica Styles */
 select{
@@ -328,3 +331,10 @@ select{
     align-content: center;
     
 }
+footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
