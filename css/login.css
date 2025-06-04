@@ -3,14 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body, html {
   height: 100%;
 }
 
-/* Fundo em degradê */
 body {
   background: linear-gradient(to bottom, #b3e0e9, #fef6e4);
   display: flex;
@@ -18,10 +17,25 @@ body {
   align-items: center;
 }
 
+img{
+  height: 4vh;
+  width: auto;
+}
 .login-container {
-  width: 100%;
-  max-width: 300px;
-  padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 30vw;
+    height: 50vh;
+    min-height: 400px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #457B9D 0px 0px 5px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
 }
 
 .login-box {
@@ -33,7 +47,8 @@ body {
 
 /* Logo */
 .logo {
-  width: 100px;
+  height: 4vh;
+  width: auto;
   margin-bottom: 10px;
 }
 
@@ -55,14 +70,21 @@ label {
   font-size: 0.9rem;
   margin-bottom: 5px;
   color: #444;
+  text-align: left;
 }
 
-input {
-  padding: 8px 10px;
-  margin-bottom: 15px;
-  border-radius: 20px;
-  border: 1px solid #ccc;
-  outline: none;
+input{
+    width: 200px;
+    height: 25px;
+    padding: 6px 12px;
+    border: 1px solid rgb(89, 132, 153);
+    border-radius: 20px;
+    background: #fff;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-bottom: 12px;
+    outline: none;
 }
 
 /* Link "Primeiro acesso" */
@@ -108,4 +130,20 @@ button:hover {
 
 .link-button:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .login-container{
+        width: 60vw;
+        height: 50vh;
+    }
+    input{
+        width: 80%;
+    }
+    button{
+        width: 80%;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
 }
