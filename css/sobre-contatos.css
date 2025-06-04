@@ -321,6 +321,7 @@ footer {
         right: -100%;
         width: 70%;
         height: 100%;
+        display: flex;
         background-color: #F1FAEE;
         padding: 80px 20px 20px;
         transition: right 0.3s;
