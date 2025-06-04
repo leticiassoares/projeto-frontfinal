@@ -54,8 +54,8 @@ label {
 
 input {
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  border: 1px solid rgb(89, 132, 153);
+  border-radius: 20px;
   margin-bottom: 15px;
 }
 
@@ -64,10 +64,16 @@ button {
   background-color: #3b82f6;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 20px;
   font-weight: 500;
   cursor: pointer;
   transition: background 0.3s;
+  width: 138px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
 }
 
 button:hover {
