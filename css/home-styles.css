@@ -125,6 +125,8 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
+    position: relative;
+    padding-bottom: 100%;
 }
 .carrossel-wrapper {
     position: relative; 
@@ -331,10 +333,45 @@ select{
     align-content: center;
     
 }
+
+/* Menu Conversas */
+
+.card-chat{
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-color: #C0D6DF;
+    border-width: 2px;
+    border-style: solid;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.message{
+    color: #747474;
+}
+.info-chat{
+    padding-left: 3vh;
+}
+
+.lista-chat{
+    display: grid;
+    gap: 2vh;
+}
+#chat-link{
+    text-decoration: none;
+}
+
+/* Footer Styles */
+
 footer {
       background-color: #333;
       color: white;
       text-align: center;
-      padding: 15px;
+      padding: 15px 0;
       margin-top: 40px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100vw;
+      box-sizing: border-box;
     }
