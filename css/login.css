@@ -1,0 +1,111 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+/* Fundo em degradê */
+body {
+  background: linear-gradient(to bottom, #b3e0e9, #fef6e4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+}
+
+.login-box {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+/* Título */
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Formulário */
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+input {
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Link "Primeiro acesso" */
+.link {
+  text-align: left;
+  font-size: 0.85rem;
+  color: #3366cc;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Botão de login */
+button {
+  background-color: #336699;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #29527a;
+}
+
+
+.link-button {
+  background: none;
+  border: none;
+  color: #3366cc;
+  font-size: 0.85rem;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.link-button:hover {
+  text-decoration: underline;
+}
