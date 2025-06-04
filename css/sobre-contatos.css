@@ -124,6 +124,31 @@ li {
     margin-left: -1em;
 }
 
+.equipe-texto {
+    margin-bottom: 15px;
+}
+
+.equipe-lista {
+    display: block;
+    padding-left: 20px;
+}
+
+.equipe-lista li {
+    padding: 8px 0;
+    position: relative;
+    font-weight: 500;
+    color: #457B9D;
+}
+
+.equipe-lista li:before {
+    content: "★";
+    color: #457B9D;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
 .contato-container {
     display: flex;
     flex-direction: column;
